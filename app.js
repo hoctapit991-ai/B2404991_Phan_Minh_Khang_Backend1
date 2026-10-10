@@ -1,10 +1,10 @@
+const contactRouter = require("./app/routes/contact.route.js");
 const express = require("express");
 const cors = require("cors");
 const app = express();
 
 app.use(cors());
 app.use(express.json());
-app.get("/", (req, res) => {
-  res.json({ message: "welcome to my backend application!" });
-});
+app.use("/api/contacts", contactRouter);
+
 module.exports = app;
