@@ -1,0 +1,24 @@
+{
+  "name": "b2404991_phan_minh_khang_backend1",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/hoctapit991-ai/B2404991_Phan_Minh_Khang_Backend1#readme",
+  "bugs": {
+    "url": "https://github.com/hoctapit991-ai/B2404991_Phan_Minh_Khang_Backend1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoctapit991-ai/B2404991_Phan_Minh_Khang_Backend1.git"
+  },
+  "license": "ISC",
+  "author": "Phan Minh Khang",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
+  }
+}
